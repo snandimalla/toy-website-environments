@@ -36,7 +36,7 @@ jobs:
     with:
       environmentType: Production
       resourceGroupName: ToyWebsiteProduction
-      reviewApiKey: ${{ secrets.REVIEW_API_KEY_TEST }}
+      reviewApiUrl: https://api.contoso.com/reviews
     secrets:
       AZURE_CLIENT_ID: ${{ secrets.AZURE_CLIENT_ID_PRODUCTION }}
       AZURE_TENANT_ID: ${{ secrets.AZURE_TENANT_ID }}
